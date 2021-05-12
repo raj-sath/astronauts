@@ -2,11 +2,11 @@
 
 A simple REST API which provides information on astronauts. 
 
-####API Urls
+###API Urls
 
-######List Astronauts  ( http://localhost:port/api/1.0/astronaut/ )
-######Get Astronaut By ID ( http://localhost:port/api/1.0/astronaut/1 )
-######Health Monitoring ( http://localhost:port/actuator/health )
+#####List Astronauts  ( http://localhost:port/api/1.0/astronaut/ )
+#####Get Astronaut By ID ( http://localhost:port/api/1.0/astronaut/1 )
+#####Health Monitoring ( http://localhost:port/actuator/health )
 
 ## Building
 #### Step 1: Install Java 11
