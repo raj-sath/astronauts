@@ -2,18 +2,6 @@
 
 A simple REST API which provides information on astronauts. 
 
-## API Urls
-
-List Astronauts  ( http://localhost:port/api/1.0/astronaut/ )
-
-Get Astronaut By ID ( http://localhost:port/api/1.0/astronaut/1 )
-
-Health Monitoring ( http://localhost:port/actuator/health )
-
-
-Please not if the remote web service being used is unavailable due to any errors,
-These REST services will return service unavailable as the http status code.
-
 ## Building
 #### Step 1: Install Java 11
 #### Step 2: Install Maven 3.8.1
@@ -35,6 +23,19 @@ Should be under /project/target/.
 #### To run the test, execute the following line, from the location of the jar file.
 
     java -jar "astronauts-0.0.1-SNAPSHOT.jar" com.example.astronauts.AstronautsApplication
+
+## API Urls
+
+List Astronauts  ( http://localhost:port/api/1.0/astronaut/ )
+
+Get Astronaut By ID ( http://localhost:port/api/1.0/astronaut/1 )
+
+Health Monitoring ( http://localhost:port/actuator/health )
+
+
+Please not if the remote web service being used is unavailable due to any errors,
+These REST services will return service unavailable as the http status code.
+
 
 ## Contributing
 
