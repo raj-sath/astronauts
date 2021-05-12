@@ -2,7 +2,7 @@
 
 A simple REST API which provides information on astronauts. 
 
-##API Urls
+## API Urls
 
 List Astronauts  ( http://localhost:port/api/1.0/astronaut/ )
 
