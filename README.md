@@ -26,12 +26,13 @@ Should be under /project/target/.
 
 ## API Urls
 
-List Astronauts  ( http://localhost:port/api/1.0/astronaut/ )
+List Astronauts  ( http://server:port/api/1.0/astronaut/ )
 
-Get Astronaut By ID ( http://localhost:port/api/1.0/astronaut/1 )
+Get Astronaut By ID ( http://server:port/api/1.0/astronaut/1 )
 
-Health Monitoring ( http://localhost:port/actuator/health )
+Health Monitoring ( http://server:port/actuator/health )
 
+When running locally you can use localhost:8080.
 
 Please not if the remote web service being used is unavailable due to any errors,
 These REST services will return service unavailable as the http status code.
